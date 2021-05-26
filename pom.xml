@@ -25,7 +25,11 @@
 <groupId>org.jboss.as.plugins</groupId>
 <artifactId>jboss-as-maven-plugin</artifactId>
 <version>7.4.Final</version>
-<executions>
+<configuration>
+<failOnMissingWebXml>false</failOnMissingWebXml>
+</configuration>
+               <executions>
+  
 <execution>
 
 
