@@ -25,7 +25,10 @@
 <groupId>org.jboss.as.plugins</groupId>
 <artifactId>jboss-as-maven-plugin</artifactId>
 <version>7.4.Final</version>
-
+<configuration>
+  <force>true</force>
+  <failOnMissingWebXml>false</failOnMissingWebXml>
+               </configuration>
                <executions>
   
 <execution>
@@ -39,7 +42,7 @@
 </executions>
 <configuration>
   
-<failOnMissingWebXml>false</failOnMissingWebXml>
+
 
 <hostname>localhost</hostname>
 <username>admin</username>
