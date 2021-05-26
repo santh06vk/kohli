@@ -9,6 +9,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <plugin.war.warName>my-app-1.0-SNAPSHOT</plugin.war.warName>
 </properties>
   <dependencies>
     <dependency>
@@ -39,7 +40,7 @@
 <jboss-as.deploy.port>9999</jboss-as.deploy.port>
 <jboss-as.deploy.user>admin</jboss-as.deploy.user>
 <jboss-as.deploy.pass>welcome*1</jboss-as.deploy.pass>
-<plugin.war.warName>my-app-1.0-SNAPSHOT</plugin.war.warName>
+
 <fileNames>
 <fileName>target\my-app-1.0-SNAPSHOT.war</fileName>
 </fileNames>
